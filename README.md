@@ -1,8 +1,6 @@
 # project_x
 
-Definitely NOT a top secret blogging platform project.
-
-Ok this is the early stages of of a blogging app. It uses the following technologies:
+This is the early stages of of a blogging app. It uses the following technologies:
 
 - C# ASP.NET Web Forms (.Net Framework 4.7.2)
 - ADO.NET
@@ -20,8 +18,8 @@ It is an attempt to show several different concepts, including but not limited t
 
 - Readable, understandable, maintainable, industry standard code
 - Meaningful naming conventions (typically a modern version of camel-case Hungarian notation)
-- Inheritance (more specifically, ASP.NET Pages/Master Pages inheriting from custom base classes)
-- Custom ADO.NET Data Access class (because real devs write their own data access layer)
+- Inheritance (ASP.NET Pages/Master Pages inheriting from custom base classes)
+- Custom ADO.NET Data Access (because real devs write their own DAL)
 - Model classes to represent 'business' objects
 - Separation of concerns / separation of responsibilities
 - Modularity
@@ -30,6 +28,9 @@ It is an attempt to show several different concepts, including but not limited t
 
 - Dynamic HTML with SQL data generated from Code Behind / Base Classes
 - Execution of JavaScript functions from Code Behind /  Base Classes
+
+Started this project using ASP.NET Core 2.1, as a Razor Pages app with ADO.NET. Supposed to be something like a modern version of Web Forms with code-behind classes ("Page Models"). There isn't even a clear way to do something as simple as add Bootstrap to a Razor Pages app. Wake me up when that technology is ready, because I like to code 90% of the time and research the other 10%. Not the other way around (90% research, 10% coding).
+
 
 
 
