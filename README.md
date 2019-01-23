@@ -1,6 +1,6 @@
 # project_x
 
-This is the early stages of of a blogging app. It uses the following technologies:
+This is the start of an ASP.NET Web Forms based code library with examples. Yes, Web Forms in 2019.
 
 - C# ASP.NET Web Forms (.Net Framework 4.7.2)
 - ADO.NET
